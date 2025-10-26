@@ -35,6 +35,7 @@ services:
     container_name: windows
     environment:
       VERSION: "11"
+DISK_SIZE: "64G"
     devices:
       - /dev/kvm
       - /dev/net/tun
